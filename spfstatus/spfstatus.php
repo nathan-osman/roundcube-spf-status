@@ -11,7 +11,7 @@
  * @url https://github.com/nathan-osman/roundcube-spf-status
  */
 
-class roundcube_spf_status extends rcube_plugin
+class spfstatus extends rcube_plugin
 {
     public $task = 'mail';
 
