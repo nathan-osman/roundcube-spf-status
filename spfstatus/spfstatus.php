@@ -6,7 +6,7 @@
  * Plugin checks messages for the Received-SPF header and displays a status
  * icon with the other message headers indicating the result.
  *
- * @version $Revision
+ * @version 1.0
  * @author Nathan Osman
  * @url https://github.com/nathan-osman/roundcube-spf-status
  */
