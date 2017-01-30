@@ -40,7 +40,7 @@ class spfstatus extends rcube_plugin
         if (0 === strpos($spf, 'Pass')) {
             $img = $this->urlbase . 'images/pass.png';
             $txt = 'Pass (valid sender)';
-        } else if (0 === strpos($spf, 'Fail')) {
+        } else if (0 === strpos($spf, 'Fail') || 0 === strpos($spf, 'Softfail')) {
             $img = $this->urlbase . 'images/fail.png';
             $txt = 'Fail (invalid sender)';
         } else {
